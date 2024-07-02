@@ -61,7 +61,7 @@
 
     <fragment
         android:id="@+id/textFragment"
-        android:name="com.bernaferrari.changedetection.detailstext.TextFragment"
+        android:name="com.bernaferrari.changedetection.detailsText.TextFragment"
         android:label="OpenFragment"
         tools:layout="@layout/diff_text_fragment">
         <deepLink

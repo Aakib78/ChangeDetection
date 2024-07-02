@@ -1,4 +1,4 @@
-package com.bernaferrari.changedetection.detailstext
+package com.bernaferrari.changedetection.detailsText
 
 import android.annotation.TargetApi
 import android.content.ClipData
@@ -25,6 +25,10 @@ import com.bernaferrari.changedetection.MainActivity
 import com.bernaferrari.changedetection.R
 import com.bernaferrari.changedetection.ScopedFragment
 import com.bernaferrari.changedetection.ViewModelFactory
+import com.bernaferrari.changedetection.detailstext.ItemSelected
+import com.bernaferrari.changedetection.detailstext.TextAdapter
+import com.bernaferrari.changedetection.detailstext.TextViewHolder
+import com.bernaferrari.changedetection.detailstext.TextViewModel
 import com.bernaferrari.changedetection.extensions.*
 import com.bernaferrari.changedetection.groupie.TextRecycler
 import com.bernaferrari.changedetection.ui.ElasticDragDismissFrameLayout
@@ -341,7 +345,7 @@ class TextFragment : ScopedFragment() {
         val clipboard = context.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
         val clip = ClipData.newPlainText(context.getString(R.string.app_name), uri)
 
-        clipboard.primaryClip = clip
+//        clipboard.primaryClip =clip
 
         Snackbar.make(
             elastic,

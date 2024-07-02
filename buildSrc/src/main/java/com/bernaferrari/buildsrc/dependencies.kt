@@ -6,8 +6,8 @@ object Versions {
 
 object Android {
     val minSdk = 21
-    val targetSdk = 33
-    val compileSdk = 33
+    val targetSdk = 34
+    val compileSdk = 34
     val versionCode = 1
     val versionName = "0.1"
 }
